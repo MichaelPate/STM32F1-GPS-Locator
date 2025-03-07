@@ -11,4 +11,27 @@
 		(company "MTP")
 	)
 	(lib_symbols)
+	(text_box "To keep voltages stable regardless of battery voltage, and to provide 5V power to the GPS, battery voltage boosted to 5V and then bucked to 3.3V"
+		(exclude_from_sim no)
+		(at 124.46 74.93 0)
+		(size 54.61 19.05)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ac0f15ba-9ded-48d0-8089-bb954bd9911c")
+	)
 )
