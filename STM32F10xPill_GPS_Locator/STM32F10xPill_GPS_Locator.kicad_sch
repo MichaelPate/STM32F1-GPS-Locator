@@ -1,5 +1,163 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f")
+	(paper "A4")
+	(lib_symbols)
+	(text "STM32F100C4T6B Handheld GPS Locator"
+		(exclude_from_sim no)
+		(at 147.066 26.162 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "6b4444f2-e99c-423e-b744-d71b8e5fcf25")
+	)
+	(text "System Architecture"
+		(exclude_from_sim no)
+		(at 147.32 66.548 0)
+		(effects
+			(font
+				(size 2.794 2.794)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "e8d8bfb3-2344-4efc-a10e-8d68bfce2d42")
+	)
+	(sheet
+		(at 91.44 78.74)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb542a6e-ba6f-4c6c-9344-4b3df55a7ad0")
+		(property "Sheetname" "Power Supply"
+			(at 91.44 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Supply.kicad_sch"
+			(at 91.44 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32F10xPill_GPS_Locator"
+				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 91.44)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfffea79-d379-47b9-be13-2a2070f80d43")
+		(property "Sheetname" "Controller"
+			(at 128.27 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controller.kicad_sch"
+			(at 128.27 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32F10xPill_GPS_Locator"
+				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 78.74)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb7f8d9c-e54d-452d-9b35-e091bd157ab7")
+		(property "Sheetname" "Peripherals"
+			(at 165.1 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 165.1 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "STM32F10xPill_GPS_Locator"
+				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
