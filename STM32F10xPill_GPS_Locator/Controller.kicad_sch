@@ -1746,10 +1746,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Crystal Series Resistor\nR = 1 / (2 * pi * F * CL2)\nR = 1 / (2 * pi * 16MHz * 22pF)\nR = 452.4 => 453 1%"
+	(text_box "Crystal Series Resistor\nR = 1 / (2 * pi * F * CL2)\nR = 1 / (2 * pi * 16MHz * 22pF)\nR = 452.4 => 453 1%\nSee ST AN2867 Oscillator Design Guide"
 		(exclude_from_sim no)
-		(at 163.83 87.63 0)
-		(size 43.18 16.51)
+		(at 153.67 85.09 0)
+		(size 54.61 19.05)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)
