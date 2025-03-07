@@ -3,6 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "b1a9cd2c-97cd-402d-b323-d2abe290474c")
-	(paper "A4")
+	(paper "A3")
+	(title_block
+		(title "STM32F100C4T6B GPS Locator")
+		(date "2025-03-06")
+		(rev "1.0.0")
+		(company "MTP")
+	)
 	(lib_symbols)
 )

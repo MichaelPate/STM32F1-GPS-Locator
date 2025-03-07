@@ -3,34 +3,192 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f")
-	(paper "A4")
+	(paper "A3")
+	(title_block
+		(title "STM32F100C4T6B GPS Locator")
+		(date "2025-03-06")
+		(rev "1.0.0")
+		(company "MTP")
+	)
 	(lib_symbols)
 	(text "STM32F100C4T6B Handheld GPS Locator"
 		(exclude_from_sim no)
-		(at 147.066 26.162 0)
+		(at 212.598 31.242 0)
 		(effects
 			(font
-				(size 5.08 5.08)
+				(size 12.7 12.7)
 				(thickness 0.381)
 				(bold yes)
 			)
 		)
 		(uuid "6b4444f2-e99c-423e-b744-d71b8e5fcf25")
 	)
-	(text "System Architecture"
+	(text "Peripherals"
 		(exclude_from_sim no)
-		(at 147.32 66.548 0)
+		(at 323.342 104.648 0)
 		(effects
 			(font
-				(size 2.794 2.794)
+				(size 7.62 7.62)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "b44335ed-39c7-47b3-926a-f20bd659f0f2")
+	)
+	(text "Controller"
+		(exclude_from_sim no)
+		(at 200.66 105.918 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "d13731e9-d839-421e-8ec1-3acc3b8393b5")
+	)
+	(text "System Architecture"
+		(exclude_from_sim no)
+		(at 212.09 71.374 0)
+		(effects
+			(font
+				(size 7.62 7.62)
 				(thickness 0.3175)
 			)
 		)
 		(uuid "e8d8bfb3-2344-4efc-a10e-8d68bfce2d42")
 	)
+	(text "Power Supply"
+		(exclude_from_sim no)
+		(at 87.63 104.648 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 0.3175)
+			)
+		)
+		(uuid "f8e9e8fd-0c88-449e-8d75-63dc04071639")
+	)
+	(text_box "DESIGN NOTE:\nExample text for debug notes."
+		(exclude_from_sim no)
+		(at 91.44 257.81 0)
+		(size 30.48 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 255 165 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0c6092c5-7f39-4829-befd-4abe9831c84f")
+	)
+	(text_box "DESIGN NOTE:\nExample text for cautionary design notes."
+		(exclude_from_sim no)
+		(at 126.365 257.81 0)
+		(size 30.48 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 250 236 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "aba39beb-fd31-4891-8af3-6286769254af")
+	)
+	(text_box "DESIGN NOTE:\nExample text for critical design notes."
+		(exclude_from_sim no)
+		(at 161.29 257.81 0)
+		(size 30.48 20.32)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "af781410-4256-400c-a498-d0ba8222f2ce")
+	)
+	(text_box "DESIGN NOTE:\nExample text for informational design notes."
+		(exclude_from_sim no)
+		(at 56.515 257.81 0)
+		(size 30.48 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f6135425-2571-4752-ba4c-54ac82802f20")
+	)
+	(text_box "LAYOUT NOTE:\nExample text for critical layout guidelines."
+		(exclude_from_sim no)
+		(at 196.215 257.81 0)
+		(size 30.48 20.32)
+		(margins 2.25 2.25 2.25 2.25)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "f8e1e902-3f0b-46a4-a0f6-2a00f39cd9ef")
+	)
 	(sheet
-		(at 91.44 78.74)
-		(size 31.75 24.13)
+		(at 52.07 116.84)
+		(size 68.58 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -45,7 +203,7 @@
 		)
 		(uuid "bb542a6e-ba6f-4c6c-9344-4b3df55a7ad0")
 		(property "Sheetname" "Power Supply"
-			(at 91.44 78.0284 0)
+			(at 52.07 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +212,7 @@
 			)
 		)
 		(property "Sheetfile" "Power Supply.kicad_sch"
-			(at 91.44 103.4546 0)
+			(at 52.07 183.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,8 +229,8 @@
 		)
 	)
 	(sheet
-		(at 128.27 91.44)
-		(size 31.75 24.13)
+		(at 167.64 116.84)
+		(size 68.58 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -87,7 +245,7 @@
 		)
 		(uuid "dfffea79-d379-47b9-be13-2a2070f80d43")
 		(property "Sheetname" "Controller"
-			(at 128.27 90.7284 0)
+			(at 167.64 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +254,7 @@
 			)
 		)
 		(property "Sheetfile" "Controller.kicad_sch"
-			(at 128.27 116.1546 0)
+			(at 167.64 183.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,8 +271,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 78.74)
-		(size 31.75 24.13)
+		(at 290.83 118.11)
+		(size 68.58 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -129,7 +287,7 @@
 		)
 		(uuid "fb7f8d9c-e54d-452d-9b35-e091bd157ab7")
 		(property "Sheetname" "Peripherals"
-			(at 165.1 78.0284 0)
+			(at 290.83 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,7 +296,7 @@
 			)
 		)
 		(property "Sheetfile" "Peripherals.kicad_sch"
-			(at 165.1 103.4546 0)
+			(at 290.83 184.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
