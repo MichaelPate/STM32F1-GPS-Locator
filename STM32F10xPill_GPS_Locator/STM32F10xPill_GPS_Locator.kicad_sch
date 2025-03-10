@@ -69,7 +69,7 @@
 	)
 	(text_box "DESIGN NOTE:\nExample text for debug notes."
 		(exclude_from_sim no)
-		(at 91.44 257.81 0)
+		(at 117.475 257.81 0)
 		(size 30.48 20.32)
 		(margins 2 2 2 2)
 		(stroke
@@ -90,9 +90,32 @@
 		)
 		(uuid "0c6092c5-7f39-4829-befd-4abe9831c84f")
 	)
+	(text_box "TO-DO ITEM:\nExample text for schematic to-do tasks."
+		(exclude_from_sim no)
+		(at 48.26 257.81 0)
+		(size 30.48 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 23 132 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1509c2c9-f44c-4d70-8186-66de5626e599")
+	)
 	(text_box "DESIGN NOTE:\nExample text for cautionary design notes."
 		(exclude_from_sim no)
-		(at 126.365 257.81 0)
+		(at 152.4 257.81 0)
 		(size 30.48 20.32)
 		(margins 2 2 2 2)
 		(stroke
@@ -115,7 +138,7 @@
 	)
 	(text_box "DESIGN NOTE:\nExample text for critical design notes."
 		(exclude_from_sim no)
-		(at 161.29 257.81 0)
+		(at 187.325 257.81 0)
 		(size 30.48 20.32)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
@@ -140,7 +163,7 @@
 	)
 	(text_box "DESIGN NOTE:\nExample text for informational design notes."
 		(exclude_from_sim no)
-		(at 56.515 257.81 0)
+		(at 82.55 257.81 0)
 		(size 30.48 20.32)
 		(margins 2 2 2 2)
 		(stroke
@@ -163,7 +186,7 @@
 	)
 	(text_box "LAYOUT NOTE:\nExample text for critical layout guidelines."
 		(exclude_from_sim no)
-		(at 196.215 257.81 0)
+		(at 222.25 257.81 0)
 		(size 30.48 20.32)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke

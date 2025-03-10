@@ -34,4 +34,27 @@
 		)
 		(uuid "ac0f15ba-9ded-48d0-8089-bb954bd9911c")
 	)
+	(text_box "TODO:\nImplement power supply, battery charging, ESD protection (if appropriate)"
+		(exclude_from_sim no)
+		(at 140.97 118.11 0)
+		(size 38.1 26.67)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 23 132 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "bb0a5d88-4f1d-4379-8a8f-b755c889a114")
+	)
 )
