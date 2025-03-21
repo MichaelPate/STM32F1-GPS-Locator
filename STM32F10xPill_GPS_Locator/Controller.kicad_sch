@@ -1267,6 +1267,14 @@
 				)
 			)
 			(symbol "STM32F100C4Tx_1_1"
+				(text "STM32F1"
+					(at 1.27 18.034 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin input line
 					(at -17.78 71.12 0)
 					(length 2.54)
