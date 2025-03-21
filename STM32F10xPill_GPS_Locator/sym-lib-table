@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Utilities")(type "KiCad")(uri "C:/Users/mpate/Documents/KiCad/9.0/projects/STM32_BluePill_GPS_Locator/STM32F1-GPS-Locator/Project Library/Symbols/Utilities.kicad_sym")(options "")(descr ""))
   (lib (name "Modules")(type "KiCad")(uri "C:/Users/mpate/Documents/KiCad/9.0/projects/STM32_BluePill_GPS_Locator/STM32F1-GPS-Locator/Project Library/Symbols/Modules.kicad_sym")(options "")(descr ""))
+  (lib (name "ICs")(type "KiCad")(uri "C:/Users/mpate/Documents/KiCad/9.0/projects/STM32_BluePill_GPS_Locator/STM32F1-GPS-Locator/Project Library/Symbols/ICs.kicad_sym")(options "")(descr ""))
 )
