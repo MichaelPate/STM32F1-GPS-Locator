@@ -3435,6 +3435,70 @@
 		(color 0 0 0 0)
 		(uuid "fc7bca70-28b4-41c9-9e17-14466eadb02b")
 	)
+	(no_connect
+		(at 195.58 207.01)
+		(uuid "0bf279cb-dd9d-4f43-9452-51abaf4b9abc")
+	)
+	(no_connect
+		(at 231.14 109.22)
+		(uuid "15e5c6a5-2220-494d-a0dc-3f556d0872e3")
+	)
+	(no_connect
+		(at 231.14 127)
+		(uuid "1d306036-4faf-49ff-9bcc-d282e4aa19a3")
+	)
+	(no_connect
+		(at 231.14 116.84)
+		(uuid "36217413-21d5-4a2e-a9e8-6c8770cce8ca")
+	)
+	(no_connect
+		(at 231.14 106.68)
+		(uuid "3a6f4527-4360-4767-b9de-7124ca1ec4f9")
+	)
+	(no_connect
+		(at 231.14 111.76)
+		(uuid "4d0053d4-1627-4d07-a0d1-3a6cf86fc5bf")
+	)
+	(no_connect
+		(at 231.14 124.46)
+		(uuid "4d26c9ff-b07f-40fb-a827-fbff8c71b094")
+	)
+	(no_connect
+		(at 195.58 194.31)
+		(uuid "61856c64-51a7-4419-97f7-3c6f5f9b7afd")
+	)
+	(no_connect
+		(at 195.58 189.23)
+		(uuid "65f68959-194c-4572-ad33-b9a896666c6e")
+	)
+	(no_connect
+		(at 231.14 99.06)
+		(uuid "af9f8b0b-6d60-46dd-97d1-181fe3786222")
+	)
+	(no_connect
+		(at 231.14 104.14)
+		(uuid "bad3e5fe-631a-4c04-97b6-70576a89514b")
+	)
+	(no_connect
+		(at 231.14 121.92)
+		(uuid "d55f1fec-7c08-4f27-81d1-aa8645713fc7")
+	)
+	(no_connect
+		(at 231.14 114.3)
+		(uuid "d9af2754-d4b7-40cc-95b6-2db60f79ca4f")
+	)
+	(no_connect
+		(at 231.14 129.54)
+		(uuid "f193c4be-9874-40de-a929-8954208a4c36")
+	)
+	(no_connect
+		(at 231.14 101.6)
+		(uuid "f6e503b7-547c-40ca-a69b-c6cc9f37953c")
+	)
+	(no_connect
+		(at 231.14 119.38)
+		(uuid "fc4e222a-1538-49d7-a56b-029e2cdc5d7e")
+	)
 	(wire
 		(pts
 			(xy 198.12 68.58) (xy 198.12 72.39)
@@ -4815,6 +4879,16 @@
 		)
 		(uuid "53d063ca-2f44-43ec-8b7c-0c80adbcac09")
 	)
+	(label "SDA"
+		(at 160.02 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57b60940-20c7-4f7a-8bfc-893b43bde951")
+	)
 	(label "SWDIO"
 		(at 238.76 132.08 0)
 		(effects
@@ -4885,6 +4959,16 @@
 		)
 		(uuid "92dbf2b8-fd84-40e7-8b11-942c5f5f91b6")
 	)
+	(label "BUTTON_A"
+		(at 165.1 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "943bb5e6-fec5-4b8d-b031-892a191a2ab9")
+	)
 	(label "OSCOUT"
 		(at 138.43 140.97 0)
 		(effects
@@ -4894,6 +4978,16 @@
 			(justify left bottom)
 		)
 		(uuid "a09e8d7d-5a1a-44f3-9b95-9ed794c30cca")
+	)
+	(label "BUTTON_B"
+		(at 165.1 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd08cee9-e297-425a-82ba-62f7e8157898")
 	)
 	(label "MCU_BOOT0"
 		(at 184.15 107.95 0)
@@ -4914,6 +5008,16 @@
 			(justify left bottom)
 		)
 		(uuid "d36eaf93-85fc-4a78-b8d8-17f9bf971ef3")
+	)
+	(label "SCK"
+		(at 160.02 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dba6f6e8-3119-4360-bfb4-e5ddeeb1e312")
 	)
 	(global_label "SDA"
 		(shape bidirectional)
@@ -5277,7 +5381,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 260.6548 76.2 0)
 			(effects
 				(font
@@ -5414,7 +5518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 146.304 228.346 90)
 			(effects
 				(font
@@ -5482,7 +5586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 180.594 106.934 90)
 			(effects
 				(font
@@ -5894,7 +5998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 197.1548 73.66 0)
 			(effects
 				(font
@@ -6028,7 +6132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 147.0152 248.92 0)
 			(effects
 				(font
@@ -6096,7 +6200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.38 117.1448 0)
 			(effects
 				(font
@@ -6166,7 +6270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 249.2248 76.2 0)
 			(effects
 				(font
@@ -6236,7 +6340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 172.72 139.7 0)
 			(effects
 				(font
@@ -6705,7 +6809,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 372.4148 67.31 0)
 			(effects
 				(font
@@ -6898,7 +7002,7 @@
 				)
 			)
 		)
-		(property "Value" "GPS_1PPS"
+		(property "Value" "SCK"
 			(at 130.81 204.978 90)
 			(effects
 				(font
@@ -6907,7 +7011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 133.35 208.28 0)
 			(effects
 				(font
@@ -7107,7 +7211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.38 157.7848 0)
 			(effects
 				(font
@@ -7379,7 +7483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.38 140.0048 0)
 			(effects
 				(font
@@ -7516,7 +7620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 143.51 57.15 0)
 			(effects
 				(font
@@ -7651,7 +7755,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 114.554 202.946 90)
 			(effects
 				(font
@@ -7719,7 +7823,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.38 173.0248 0)
 			(effects
 				(font
@@ -7866,7 +7970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 172.72 172.72 0)
 			(effects
 				(font
@@ -7931,7 +8035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 156.464 139.954 90)
 			(effects
 				(font
@@ -7999,7 +8103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 253.746 173.736 90)
 			(effects
 				(font
@@ -8069,7 +8173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 156.464 228.346 90)
 			(effects
 				(font
@@ -8137,7 +8241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127 67.0052 0)
 			(effects
 				(font
@@ -8207,7 +8311,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.3648 76.2 0)
 			(effects
 				(font
@@ -8409,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 283.21 172.72 0)
 			(effects
 				(font
@@ -8489,7 +8593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 106.934 202.946 90)
 			(effects
 				(font
@@ -8559,7 +8663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.7948 76.2 0)
 			(effects
 				(font
@@ -8629,7 +8733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 172.72 116.84 0)
 			(effects
 				(font
@@ -8694,7 +8798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 159.7152 248.92 0)
 			(effects
 				(font
@@ -8764,7 +8868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 172.72 157.48 0)
 			(effects
 				(font
@@ -9088,7 +9192,7 @@
 				)
 			)
 		)
-		(property "Value" "GPS_1PPS"
+		(property "Value" "SDA"
 			(at 137.16 204.978 90)
 			(effects
 				(font
@@ -9097,7 +9201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 139.7 208.28 0)
 			(effects
 				(font
