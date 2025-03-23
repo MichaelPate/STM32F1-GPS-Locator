@@ -3653,10 +3653,6 @@
 		(uuid "15e5c6a5-2220-494d-a0dc-3f556d0872e3")
 	)
 	(no_connect
-		(at 231.14 127)
-		(uuid "1d306036-4faf-49ff-9bcc-d282e4aa19a3")
-	)
-	(no_connect
 		(at 231.14 116.84)
 		(uuid "36217413-21d5-4a2e-a9e8-6c8770cce8ca")
 	)
@@ -3687,10 +3683,6 @@
 	(no_connect
 		(at 231.14 114.3)
 		(uuid "d9af2754-d4b7-40cc-95b6-2db60f79ca4f")
-	)
-	(no_connect
-		(at 231.14 129.54)
-		(uuid "f193c4be-9874-40de-a929-8954208a4c36")
 	)
 	(no_connect
 		(at 231.14 101.6)
@@ -4162,7 +4154,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 132.08) (xy 238.76 132.08)
+			(xy 231.14 132.08) (xy 245.11 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4852,7 +4844,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 134.62) (xy 238.76 134.62)
+			(xy 231.14 134.62) (xy 245.11 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5031,7 +5023,7 @@
 		(uuid "0805ad71-8d8b-421c-be52-78328593712c")
 	)
 	(label "SWDCLK"
-		(at 238.76 134.62 0)
+		(at 245.11 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5091,7 +5083,7 @@
 		(uuid "57b60940-20c7-4f7a-8bfc-893b43bde951")
 	)
 	(label "SWDIO"
-		(at 238.76 132.08 0)
+		(at 245.11 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5306,6 +5298,28 @@
 			)
 		)
 	)
+	(global_label "USB_DM"
+		(shape bidirectional)
+		(at 231.14 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "669e0065-552e-4eb1-93b1-8ab734ae10df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.7355 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD_MOSI"
 		(shape output)
 		(at 195.58 196.85 180)
@@ -5412,6 +5426,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DP"
+		(shape bidirectional)
+		(at 231.14 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9294288-1ab3-48c8-9fbb-e145a3d778b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.5541 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
