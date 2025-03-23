@@ -113,6 +113,29 @@
 		)
 		(uuid "1509c2c9-f44c-4d70-8186-66de5626e599")
 	)
+	(text_box "The outer dimensions for the enclosure should be 80mm wide, 120mm tall, and 30mm deep"
+		(exclude_from_sim no)
+		(at 318.77 208.28 0)
+		(size 30.48 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "401a5b72-03a8-4624-a704-68a3dd8827dd")
+	)
 	(text_box "DESIGN NOTE:\nExample text for cautionary design notes."
 		(exclude_from_sim no)
 		(at 152.4 257.81 0)
