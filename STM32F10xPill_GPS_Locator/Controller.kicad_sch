@@ -5595,7 +5595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fccbeb6-b2b1-4cd7-b257-5c45e89ac892")
-		(property "Reference" "R24"
+		(property "Reference" "R9"
 			(at 274.32 118.11 0)
 			(effects
 				(font
@@ -5649,7 +5649,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "R24")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6565,7 +6565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "334e920a-4800-4597-81eb-cf8070ed7e07")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 279.4 100.33 0)
 			(effects
 				(font
@@ -6615,7 +6615,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6768,7 +6768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44f3e259-584e-4237-804c-65c0e2e89c23")
-		(property "Reference" "C27"
+		(property "Reference" "C13"
 			(at 270.51 128.778 0)
 			(effects
 				(font
@@ -6820,7 +6820,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "C27")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7314,7 +7314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bdedb66-be85-4fbf-a8c3-eba8cfec831f")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR021"
 			(at 302.26 133.35 0)
 			(effects
 				(font
@@ -7365,7 +7365,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "#PWR058")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7381,7 +7381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f8c02de-4416-4266-ad06-12c38599e661")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 388.62 39.37 0)
 			(effects
 				(font
@@ -7435,7 +7435,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7806,7 +7806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70cf605b-c2f6-4e1a-9e96-518c343c5679")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 292.1 172.72 0)
 			(effects
 				(font
@@ -7856,7 +7856,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8559,7 +8559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c548e55-d1e4-4d7b-ab37-0653378e091b")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR018"
 			(at 276.86 119.38 0)
 			(effects
 				(font
@@ -8609,7 +8609,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "#PWR059")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9106,7 +9106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baf3d9b9-6d9b-4abd-9b96-a0a811aad643")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 365.76 59.69 0)
 			(effects
 				(font
@@ -9157,7 +9157,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9392,7 +9392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ded244d7-982a-458e-8568-8a3667a0e6d3")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR017"
 			(at 275.59 139.7 0)
 			(effects
 				(font
@@ -9443,7 +9443,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "#PWR060")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9661,7 +9661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f77bf25e-6062-4e2f-824a-ba7a76bb5e39")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 365.76 31.75 0)
 			(effects
 				(font
@@ -9711,7 +9711,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9792,7 +9792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95601c7-4a18-458b-8a76-883b6868a600")
-		(property "Reference" "SW6"
+		(property "Reference" "SW1"
 			(at 123.19 52.07 0)
 			(effects
 				(font
@@ -9853,7 +9853,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/dfffea79-d379-47b9-be13-2a2070f80d43"
-					(reference "SW6")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
