@@ -2437,131 +2437,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+BATT"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2664,28 +2539,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "VBAT is battery voltage downstream of regulation but upstream of the power switch; it is always connected to power"
+	(text "LQG18HN6N8J00D"
 		(exclude_from_sim no)
-		(at 297.18 73.66 0)
-		(size 62.23 13.97)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
+		(at 229.87 147.32 0)
 		(effects
 			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
+				(size 1.27 1.27)
 			)
-			(justify left top)
 		)
-		(uuid "0ee47812-5f47-40fb-a4d9-6cf0794d6dea")
+		(uuid "bc13a24b-06ee-4122-8871-58d8f159dc07")
 	)
 	(text_box "ATGM336H Typ. Power\nGPS: <25mA @ 3.3v\nVBAT: 10uA @ 3.3v"
 		(exclude_from_sim no)
@@ -2757,6 +2619,29 @@
 			(justify left top)
 		)
 		(uuid "5e130b9c-1a38-453f-a3f4-aafc818e74b6")
+	)
+	(text_box "The MCU can kill power to the GPS and LNA but the battery backup will remain powered as long as the battery or power supply is running"
+		(exclude_from_sim no)
+		(at 303.53 68.58 0)
+		(size 45.72 20.32)
+		(margins 2 2 2 2)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7dca3947-a023-4848-9ed0-01af34d2ce8f")
 	)
 	(text_box "Keep RF tracks as short as possible"
 		(exclude_from_sim no)
@@ -4060,6 +3945,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 317.5 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01f81c56-5fa5-424a-be5d-dbc2fdda85e7")
+		(property "Reference" "#PWR052"
+			(at 317.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 317.5 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 317.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96a57358-5255-4ac8-93d1-14270ab41761")
+		)
+		(instances
+			(project "STM32F10xPill_GPS_Locator"
+				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 256.54 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "023e8f5b-7093-4c0a-b9bd-cea382570cd2")
+		(property "Reference" "#PWR048"
+			(at 256.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SW"
+			(at 256.54 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 256.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "336c94aa-9549-4d10-936c-2f045f41254a")
+		)
+		(instances
+			(project "STM32F10xPill_GPS_Locator"
+				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 393.7 165.1 0)
 		(mirror y)
@@ -4070,7 +4085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "124e7522-8948-4397-b958-04a74bed6a50")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR057"
 			(at 393.7 171.45 0)
 			(effects
 				(font
@@ -4121,7 +4136,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR031")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4136,7 +4151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "158ce3e1-38c3-404e-96ca-63c8f636b6d7")
-		(property "Reference" "TP9"
+		(property "Reference" "TP17"
 			(at 298.196 165.1 90)
 			(effects
 				(font
@@ -4186,7 +4201,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "TP9")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -4201,7 +4216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "192b87d9-d730-4f17-a56a-d720283d9c15")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 112.014 203.708 0)
 			(effects
 				(font
@@ -4271,73 +4286,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 256.54 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d42d75e-9e27-4629-9d90-79b593f912e9")
-		(property "Reference" "#PWR022"
-			(at 256.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 256.54 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 256.54 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a44f0fa-2449-4c11-9298-4ba78067ff59")
-		)
-		(instances
-			(project "STM32F10xPill_GPS_Locator"
-				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR022")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4353,7 +4302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "213cbc47-07e5-4ebb-b6df-d24f5f052dce")
-		(property "Reference" "C14"
+		(property "Reference" "C23"
 			(at 209.55 137.16 90)
 			(effects
 				(font
@@ -4405,7 +4354,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "C14")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -4421,7 +4370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee9c032-b6ca-4951-854d-5523ef549cb1")
-		(property "Reference" "C16"
+		(property "Reference" "C25"
 			(at 321.31 119.38 0)
 			(effects
 				(font
@@ -4475,7 +4424,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "C16")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31d34975-a34a-46e1-9758-3684cbb88e10")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR047"
 			(at 255.27 171.45 0)
 			(effects
 				(font
@@ -4543,7 +4492,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR020")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4559,7 +4508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3233619d-0962-4496-85a9-c1a3f465581f")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR043"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -4610,7 +4559,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR015")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4626,7 +4575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39bfd6db-c75c-462e-9e74-012c19da6b48")
-		(property "Reference" "C12"
+		(property "Reference" "C21"
 			(at 143.51 71.12 0)
 			(effects
 				(font
@@ -4680,7 +4629,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "C12")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4696,7 +4645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3de288f2-9cc5-401b-b676-b4ba4a7cdd4c")
-		(property "Reference" "C17"
+		(property "Reference" "C26"
 			(at 344.17 119.38 0)
 			(effects
 				(font
@@ -4750,7 +4699,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "C17")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4765,7 +4714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f7d55ef-6784-4393-a5f5-431984e12695")
-		(property "Reference" "TP8"
+		(property "Reference" "TP19"
 			(at 298.196 172.72 90)
 			(effects
 				(font
@@ -4815,7 +4764,72 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "TP8")
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 334.01 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "494bbcea-b749-402e-9733-176e1bc9999d")
+		(property "Reference" "#PWR055"
+			(at 334.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SW"
+			(at 334.01 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 334.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79a9cf15-8bc1-487a-bdf6-0f2e8099c8b3")
+		)
+		(instances
+			(project "STM32F10xPill_GPS_Locator"
+				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4830,7 +4844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e0b5d9e-6ca8-4b31-b582-b5ee995988b3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR046"
 			(at 241.3 154.94 0)
 			(effects
 				(font
@@ -4880,7 +4894,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR024")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4897,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fb0cb93-788a-472e-b62e-8e1b982d70b4")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR053"
 			(at 317.5 132.08 0)
 			(effects
 				(font
@@ -4948,7 +4962,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR026")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4965,7 +4979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "555c7fbb-b976-435d-be8f-871bf00a0a5a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR040"
 			(at 114.3 173.99 0)
 			(effects
 				(font
@@ -5016,7 +5030,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR054")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5031,7 +5045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5da1324c-0262-46a6-a233-fe880fd16ce0")
-		(property "Reference" "C13"
+		(property "Reference" "C22"
 			(at 143.51 95.25 0)
 			(effects
 				(font
@@ -5093,7 +5107,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "C13")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -5109,7 +5123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fd6b751-429b-4de9-830c-5c2ccc0f1ea2")
-		(property "Reference" "R6"
+		(property "Reference" "R23"
 			(at 367.03 156.21 90)
 			(effects
 				(font
@@ -5161,7 +5175,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "R6")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5178,7 +5192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60b6acc3-4806-4429-8a76-750726467eac")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR056"
 			(at 340.36 132.08 0)
 			(effects
 				(font
@@ -5229,7 +5243,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR028")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5244,7 +5258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f67ead6-697e-459c-b72d-e37d5b9cc5d6")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 260.858 160.528 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5253,7 +5267,7 @@
 				)
 			)
 		)
-		(property "Value" "AT2659"
+		(property "Value" "AT2659S"
 			(at 262.636 162.56 0)
 			(effects
 				(font
@@ -5261,7 +5275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-6_1.6x1.3mm_P0.4mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 256.54 148.59 0)
 			(effects
 				(font
@@ -5288,7 +5302,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C92450"
+		(property "LCSC Part" "C883443"
 			(at 256.54 148.59 0)
 			(effects
 				(font
@@ -5318,7 +5332,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5334,7 +5348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dc621e9-72dc-4b34-949a-f480bc2f2aef")
-		(property "Reference" "C15"
+		(property "Reference" "C24"
 			(at 266.7 127 0)
 			(effects
 				(font
@@ -5388,7 +5402,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "C15")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5403,7 +5417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83ac14be-afa2-4d40-a252-a432334f74e3")
-		(property "Reference" "JP3"
+		(property "Reference" "JP6"
 			(at 321.564 105.41 90)
 			(effects
 				(font
@@ -5420,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 317.5 105.41 0)
 			(effects
 				(font
@@ -5456,7 +5470,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "JP3")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -5472,7 +5486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85abd557-ec09-41e5-8101-c6dc57aa4001")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR050"
 			(at 288.29 160.02 0)
 			(effects
 				(font
@@ -5522,7 +5536,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR030")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5537,7 +5551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89108b21-ae28-473a-9bc3-934ec5cacd9b")
-		(property "Reference" "JP2"
+		(property "Reference" "JP4"
 			(at 260.604 115.57 90)
 			(effects
 				(font
@@ -5554,7 +5568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 256.54 115.57 0)
 			(effects
 				(font
@@ -5590,7 +5604,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "JP2")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -5607,7 +5621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a6f3e44-3d02-4478-8ce9-b573ff888443")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 192.2896 138.43 0)
 			(effects
 				(font
@@ -5615,7 +5629,7 @@
 				)
 			)
 		)
-		(property "Value" "Antenna"
+		(property "Value" "734120110"
 			(at 192.2896 140.97 0)
 			(effects
 				(font
@@ -5650,6 +5664,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C434806"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "768c0a4f-48c8-4d1f-84c0-f34c4ef05d28")
 		)
@@ -5659,7 +5682,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9056fc5a-e885-4a19-9138-0091f5982be6")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 337.566 178.308 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5772,7 +5795,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "U4")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -5788,7 +5811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0853982-c225-4c1f-8842-1f85ddb399a5")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 229.87 139.7 90)
 			(effects
 				(font
@@ -5804,7 +5827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 229.87 144.78 0)
 			(effects
 				(font
@@ -5831,6 +5854,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C882493"
+			(at 229.87 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a93d7ad2-3bbf-4f2d-8eee-012e3257f1f5")
 		)
@@ -5840,73 +5872,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 121.92 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0fdd899-3d77-4870-b40f-3e3978a0f80a")
-		(property "Reference" "#PWR014"
-			(at 121.92 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 121.92 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 121.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2917cfe-a5a4-42bb-84bf-20c83ab752e8")
-		)
-		(instances
-			(project "STM32F10xPill_GPS_Locator"
-				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR014")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -5922,7 +5888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e6e81a-8202-4f5e-9013-b1543ebbf646")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR038"
 			(at 106.68 158.75 0)
 			(effects
 				(font
@@ -5972,7 +5938,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR053")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5987,7 +5953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8af0d2e-aa69-4813-b550-1fdbce8ecd27")
-		(property "Reference" "JP5"
+		(property "Reference" "JP3"
 			(at 125.984 59.69 90)
 			(effects
 				(font
@@ -6004,7 +5970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 121.92 59.69 0)
 			(effects
 				(font
@@ -6040,7 +6006,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "JP5")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -6056,7 +6022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a7308a-3f76-4823-bc62-394f6d03c452")
-		(property "Reference" "JP1"
+		(property "Reference" "JP5"
 			(at 285.75 161.29 90)
 			(effects
 				(font
@@ -6074,7 +6040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
 			(at 288.29 162.56 0)
 			(effects
 				(font
@@ -6113,7 +6079,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "JP1")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -6129,7 +6095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b65a8289-363a-4caa-933a-66eb0a5c3a19")
-		(property "Reference" "C26"
+		(property "Reference" "C20"
 			(at 118.11 161.29 0)
 			(effects
 				(font
@@ -6183,7 +6149,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "C26")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6198,7 +6164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc5c8fcb-d818-4dbe-ba11-f36d12f1cdd0")
-		(property "Reference" "R18"
+		(property "Reference" "R22"
 			(at 137.16 189.992 90)
 			(effects
 				(font
@@ -6250,73 +6216,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 334.01 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd154731-f310-4549-ae19-0549505ca115")
-		(property "Reference" "#PWR027"
-			(at 334.01 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 334.01 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 334.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f648935b-5133-4e46-84d5-3f011b895571")
-		)
-		(instances
-			(project "STM32F10xPill_GPS_Locator"
-				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR027")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6332,7 +6232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd27e0fd-157d-41d9-b2d6-982634ba2201")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR041"
 			(at 119.38 110.49 0)
 			(effects
 				(font
@@ -6383,7 +6283,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR017")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6400,7 +6300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bec79db8-5032-44e9-9625-2661effdc5a9")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR054"
 			(at 328.93 190.5 0)
 			(effects
 				(font
@@ -6451,73 +6351,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 317.5 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c019e976-b5a1-4d5f-a258-0e712216dd68")
-		(property "Reference" "#PWR025"
-			(at 317.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 317.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 317.5 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 317.5 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 317.5 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbcf9e91-a6cb-4874-b19f-62b3b50620c1")
-		)
-		(instances
-			(project "STM32F10xPill_GPS_Locator"
-				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR025")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6532,7 +6366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1d41ca3-e76d-412d-8938-190da34bd8a6")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 127.254 98.298 0)
 			(effects
 				(font
@@ -6605,7 +6439,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6622,7 +6456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4e95087-eaa5-4490-bc24-98b3912f0f7f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR045"
 			(at 186.69 153.67 0)
 			(effects
 				(font
@@ -6673,7 +6507,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR019")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6688,7 +6522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c55385e3-bd43-4600-9041-1c2c83999d81")
-		(property "Reference" "JP4"
+		(property "Reference" "JP7"
 			(at 338.074 105.41 90)
 			(effects
 				(font
@@ -6705,7 +6539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 334.01 105.41 0)
 			(effects
 				(font
@@ -6741,7 +6575,72 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "JP4")
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 121.92 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cea700e2-2680-4308-93eb-5164f76d9157")
+		(property "Reference" "#PWR042"
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SW"
+			(at 121.92 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 121.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5137e6e4-147e-428d-aac6-dac744679dd1")
+		)
+		(instances
+			(project "STM32F10xPill_GPS_Locator"
+				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6758,7 +6657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf39be19-587e-46d2-ac72-4bf044dcfe2c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR051"
 			(at 288.29 175.26 0)
 			(effects
 				(font
@@ -6809,7 +6708,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR029")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6826,7 +6725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9913d44-7a42-46ab-a123-afe6244de12e")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR039"
 			(at 106.68 213.36 0)
 			(effects
 				(font
@@ -6877,7 +6776,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR055")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6893,7 +6792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e825994d-9e69-48dd-afa2-bb005d1ac4a3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR044"
 			(at 139.7 110.49 0)
 			(effects
 				(font
@@ -6944,7 +6843,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR018")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6961,7 +6860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efaeb37e-cd8f-4539-badb-10b71b4076d4")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR049"
 			(at 262.89 139.7 0)
 			(effects
 				(font
@@ -7012,7 +6911,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "#PWR023")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7028,7 +6927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f138c023-69c1-49d4-a4da-a7edd9199064")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 388.5565 156.21 0)
 			(effects
 				(font
@@ -7089,7 +6988,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7105,7 +7004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95dfbc6-1483-49c0-8d49-54cd80c43aa2")
-		(property "Reference" "NT3"
+		(property "Reference" "NT5"
 			(at 292.1 139.7 0)
 			(effects
 				(font
@@ -7159,7 +7058,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "NT3")
+					(reference "NT5")
 					(unit 1)
 				)
 			)
@@ -7174,7 +7073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcc39f7f-f6c4-48c0-bd65-9d33b161eeec")
-		(property "Reference" "TP7"
+		(property "Reference" "TP18"
 			(at 298.196 170.18 90)
 			(effects
 				(font
@@ -7224,7 +7123,7 @@
 		(instances
 			(project "STM32F10xPill_GPS_Locator"
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "TP7")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdbdf02d-cef4-4a97-b435-78b2027309a8")
-		(property "Reference" "TP6"
+		(property "Reference" "TP20"
 			(at 351.79 154.178 0)
 			(effects
 				(font
@@ -7289,7 +7188,7 @@
 		(instances
 			(project ""
 				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/fb7f8d9c-e54d-452d-9b35-e091bd157ab7"
-					(reference "TP6")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
