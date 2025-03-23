@@ -26336,7 +26336,7 @@
 		)
 	)
 	(gr_text "michaelpate.net"
-		(at 131 125 270)
+		(at 131.5 125 270)
 		(layer "B.SilkS")
 		(uuid "5d4a628d-3366-47a8-80e5-a970b7208778")
 		(effects
