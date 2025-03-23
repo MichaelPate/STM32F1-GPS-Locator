@@ -9465,7 +9465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "2SK3019-ES"
 			(at 119.38 240.03 0)
 			(effects
 				(font
@@ -9474,7 +9474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 118.11 236.22 0)
 			(effects
 				(font
@@ -9521,6 +9521,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 113.03 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "2SK3019-ES"
+			(at 113.03 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,6 +9626,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 130.81 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b1bfbc2-cf8d-4532-8ea2-087074f7e030")
+		(property "Reference" "Q3"
+			(at 137.16 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SK3019-ES"
+			(at 137.16 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
+			(at 135.89 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 130.81 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 130.81 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 130.81 271.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 130.81 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 130.81 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "2SK3019-ES"
+			(at 130.81 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fced9b3-86e7-413f-93cc-56015d491281")
+		)
+		(pin "1"
+			(uuid "1db9a74b-78ff-446a-b05e-6614de93e2ef")
+		)
+		(pin "3"
+			(uuid "6719e0f5-01e1-45e8-86c4-1c27da761eca")
+		)
+		(instances
+			(project "STM32F10xPill_GPS_Locator"
+				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/bb542a6e-ba6f-4c6c-9344-4b3df55a7ad0"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 312.42 195.58 0)
 		(unit 1)
@@ -9635,7 +9753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 314.96 196.4181 0)
 			(effects
 				(font
@@ -10521,7 +10639,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+		(property "Value" "TYPE-C-31-M-12"
 			(at 90.17 44.45 0)
 			(effects
 				(font
@@ -10548,6 +10666,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 90.17 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C165948"
 			(at 90.17 68.58 0)
 			(effects
 				(font
@@ -14416,106 +14543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 130.81 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2a2ab27-953c-44dd-98cf-4679b42ca559")
-		(property "Reference" "Q3"
-			(at 137.16 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 137.16 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 130.81 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 130.81 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 130.81 271.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 130.81 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 130.81 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5016af50-f33d-46f7-abf0-598a281a6ddc")
-		)
-		(pin "1"
-			(uuid "c4bf0929-5173-4ff2-9b42-f92c78e39f35")
-		)
-		(pin "3"
-			(uuid "dddfa0c4-4178-411d-99cd-5113f67c9ce0")
-		)
-		(instances
-			(project "STM32F10xPill_GPS_Locator"
-				(path "/ea8b3ef8-8ecc-4b82-8187-a133f9b3c76f/bb542a6e-ba6f-4c6c-9344-4b3df55a7ad0"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 255.27 212.09 0)
 		(unit 1)
@@ -15204,7 +15231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "10u"
 			(at 365.76 188.7981 0)
 			(effects
 				(font
